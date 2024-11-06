@@ -1,43 +1,47 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BNN4</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
+  <meta charset="UTF-8">
 
-        img {
-            position: absolute;
-        }
-    </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+
+
+  <title>BNN4</title>
+
+  <style>
+
+    body {
+
+      margin: 0;   
+
+      padding: 0;
+
+      overflow: hidden; /* Disable scrolling */
+
+    }
+
+    img {
+
+      width: 100vw;
+
+      height: 100vh;
+
+      object-fit: cover; /* Ensures image covers the entire viewport */
+
+    }
+
+  </style>
+
 </head>
+
 <body>
-    <img src="natalia.jpg" alt="Natalia Vodianova">
 
-    <script>
-        const image = document.querySelector('img');
-        const desiredX = 3000; // Adjust this to your desired X coordinate
-        const desiredY = 2000; // Adjust this to your desired Y coordinate
+  <img src="natalia.jpg" alt="Natalia Vodianova">
 
-        // Wait for the image to load to get its dimensions
-        image.onload = () => {
-            const imageWidth = image.width;
-            const imageHeight = image.height;
-
-            // Calculate the offsets to center the image at the desired coordinates
-            const offsetX = desiredX - imageWidth / 2;
-            const offsetY = desiredY - imageHeight / 2;
-
-            // Set the position of the image using CSS
-            image.style.left = offsetX + 'px';
-            image.style.top = offsetY + 'px';
-        };
-    </script>
 </body>
+
 </html>

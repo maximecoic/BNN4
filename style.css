@@ -6,7 +6,7 @@ body, html {
 
 /* Apply the background image and stretch it */
 body {
-    background-image: url('https://example.com/your-image.jpg'); /* Replace with your image URL */
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/310965713/display_1500/stock-photo-the-rocky-shore-or-beach-andaman-sea-thailand-310965713.jpg'); /* Replace with your image URL */
     background-size: cover; /* Stretches the image to cover the entire background */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
